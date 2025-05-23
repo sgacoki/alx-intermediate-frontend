@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom responsive CSS for grid */
+@media (max-width: 768px) 
+{ 
+main { grid-template-columns: 1fr; } 
+}
